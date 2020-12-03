@@ -36,7 +36,7 @@ function autoPlay() {
 
         findNext();
 
-        //静音下才能自动播放
+        //静音
         MoocPlayer.muted= true;
         MoocPlayer.autoplay = true;
 
